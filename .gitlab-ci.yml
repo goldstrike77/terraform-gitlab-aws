@@ -50,7 +50,6 @@ validate:
 build:
   extends: .terraform:build
 
-
 deploy:
   extends: .terraform:deploy
   rules:
